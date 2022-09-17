@@ -7,6 +7,14 @@ body{
     line-height: 1.6em;
     }
     
+    body::-webkit-scrollbar{
+    width: 11px;
+}
+
+body::-webkit-scrollbar-thumb{
+    background:rgb(0, 0, 0);
+}
+    
     h1{
         line-height: 1.3em;
         font-size:2rem;
@@ -34,7 +42,7 @@ body{
     }
     
     .header a{
-        background-color: #333;
+        background-color: rgb(143, 143, 143);
         color: white;
         text-decoration: none;
     }
