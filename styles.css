@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb{
     .header{
         background-color: #6a60f8;
         color: white;
-        padding: 1rem 0;
+        padding: 2rem 0;
     
         position: fixed;
         left: 0;
